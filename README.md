@@ -14,4 +14,4 @@
 
 <hr />
 
-[LICENSE](./LICENSE.md)
+[LICENSE](LICENSE.md)

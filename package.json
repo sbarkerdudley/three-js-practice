@@ -1,0 +1,50 @@
+{
+  "name": "gradientize",
+  "version": "1.0.0",
+  "description": "A visual browser for Spotify",
+  "main": "/server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w",
+    "serve": "npx webpack-dev-server --config webpack.config.js",
+    "start": "nodemon $PWD/server/index.js",
+    "dev": "npm start && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbarkerdudley/gradientize.git"
+  },
+  "keywords": [
+    "spotify"
+  ],
+  "author": "S. Barker Dudley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbarkerdudley/gradientize/issues"
+  },
+  "homepage": "https://github.com/sbarkerdudley/gradientize#readme",
+  "dependencies": {
+    "babel-loader": "^8.2.3",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^6.5.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.1",
+    "three": "^0.136.0",
+    "threejs-ply-loader": "^1.1.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "dat.gui": "^0.7.7",
+    "source-map-loader": "^1.0.0",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  }
+}
